@@ -4,6 +4,10 @@ html, body {
     font-family: arial;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 header {
     padding: 30px;
 }
@@ -26,14 +30,38 @@ h2 {
     text-align: center;
 }
 
+input[type=url] {
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+    padding: 17px 30px;
+    border: none;
+    width: 50%;
+    font-size: 1.3em;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    padding: 17px 30px;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 3px;
+    background: #EE6123;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+
+}
+
 #hello {
     background-image: url("../pictures/hello.jpg");
     background-size: cover;
     height: 500px;
 }
 
-* {
-    box-sizing: border-boxs;
+#hello form {
+    text-align: center;
+    margin-top: 30px;
 }
 
 .container {
