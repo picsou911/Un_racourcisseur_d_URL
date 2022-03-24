@@ -31,6 +31,11 @@
             <img src="pictures/3.png" alt="3" class="picture">
             <img src="pictures/4.png" alt="4" class="picture">
         </div>
-    <section>
+    </section>
+    <footer>
+        <img src="pictures/logo2.png" alt="logo" id="logo"><br>
+        2018 © Bitly<br>
+        <a href="#">Contact</a> - <a href="#">A propos</a>
+    </footer>
     </body>
 </html>
